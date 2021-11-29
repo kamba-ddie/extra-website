@@ -1,29 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
-
-html{
-    font-family: 'Lora', serif;
+html {
+  font-family: "Lora", serif;
 }
 
-.navbar{
-    background-color: #0f2e68;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
+.navbar {
+  background-color: #0f2e68;
+  position: fixed;
+  width: 100%;
+  top: 0px;
  
- .navbar li {
-     display: inline-block;
- }
-
- .navbar a {
-    color: white;
 }
- 
- .top {
-    background-color:#7fbbff;
-    color:rgb(72, 2, 119);
-    margin-top: 75px;
-    text-align: left;
-    padding: 100px 0;
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  color: white;
+}
+
+.top {
+  background-color: #7fbbff;
+  color: rgb(72, 2, 119);
+  margin-top: 75px;
+  text-align: left;
+  padding: 100px 0;
+}
+
+.top p, h1, button {
+   margin-left: 30px;
 }
