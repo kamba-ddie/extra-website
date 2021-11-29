@@ -31,3 +31,13 @@ html {
 .top p, h1, button {
    margin-left: 30px;
 }
+
+.flexcontainer {
+    background-color:#7fbbff;
+    color:rgb(13, 120, 219);
+    margin-top: 75px;
+    text-align: left;
+    padding: 100px 0;
+    
+}
+
