@@ -7,8 +7,11 @@
  
  .navbar li {
      display: inline-block;
-    
  }
+
+ .navbar a {
+    color: white;
+}
  
  .top {
     background-color:#7fbbff;
