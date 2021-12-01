@@ -15,11 +15,45 @@
                 <li><a href="images.html">Gallery</a></li>
             </ul>
         </nav>
-        <div class="flexcontainer">
-            <h1> box 3 </h1>
-            <div> box4 </div>
-        <img src="/img/20211013_183028.jpg" alt="photo of brighton marina" width="300x" height="180px" style = "border: 5px solid white; margin-left: 10px;"
-        > 
-        </div>
-       
+        <div class="flexcontainerimages">
+            <div class="photobox1"> <box width="600px" height="360px"> 
+                <img src="/img/royal-pavilon-1235749.jpg" alt= photo of the pavillion width="600px" height="360px" style= "border:5px dotted white; margin-left:10px;">
+                <p> This is the only photo we didn't take ourselves</p>
+            </box> </div>
+         <div class="photobox2">
+            <img src="/img/20211013_183028.jpg" alt="photo of brighton marina" width="600x" height="360px" style = "border: 5px dotted white; margin-left: 10px;"> 
+        <p>This is a photo of the Brighton marina</p></div>
         
+         <div class= "photobox3"> 
+             <img src="/img/20210206_133900.jpg" alt="photo of dog on a tractor in woodingdean" width=600px height=360px style="border:5px dotted white;margin: left 10px;">
+            <p>This is a photo of a dog on a tractor in the outskirts of Brighton</p></div> 
+         <div class= photobox4>
+             <img src="/img/20210307_173959.jpg" alt="brighton beach" width=600px height=360px style="border:5px dotted white;margin: left 10px;">
+             <p> This is a photo of Brighton central beach at Sunset</p>
+         </div>
+        
+        <div><button id=likebutton>Do you like our website?</button></div>
+        <script>
+            document.body.addEventListener("click", function(){
+              document.body.style.backgroundColor = "cyan";
+            });
+            </script>
+            
+        <script>
+            header1.addEventListener("mouse enter", function(){
+                header1.style.Color="red";
+            });
+        </script>
+             
+             <script>
+                var x = document.getElementById("likebutton");
+                x.addEventListener("click", myFunction);
+                x.addEventListener("click", someOtherFunction);
+                
+                function myFunction() {
+                  alert ("Do you like our website?");
+                }
+                function someOtherFunction() {
+  alert ("We like it too!");
+}
+</script>  

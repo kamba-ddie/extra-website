@@ -2,6 +2,7 @@
 
 html {
   font-family: "Lora", serif;
+  background-color: rgba(117, 190, 218, 0.5);
 }
 
 .navbar {
@@ -40,7 +41,6 @@ html {
     padding: 100px ;
     
 }
-
   .flexItem {
     padding: 10px;
     border: 5px dashed rgb(20, 16, 218);
@@ -73,3 +73,14 @@ html {
   .flexItem3{
       flex: 1;
   }
+
+
+.flexcontainerimages{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 100px;
+    flex-wrap: wrap;
+  height: 500px;
+  justify-content: space-between;
+  text-align: center;
+}
