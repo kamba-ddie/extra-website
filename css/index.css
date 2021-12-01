@@ -74,13 +74,46 @@ html {
       flex: 1;
   }
 
-
 .flexcontainerimages{
     display: flex;
     flex-direction: row ;
     margin-top: 100px;
     flex-wrap: wrap;
-  height: 500px;
+  height: 400px;
   justify-content: space-between;
   text-align: center;
+
+}
+.photobox1{
+    flex:1;
+}
+.photobox2{
+    flex:1;
+}
+.photobox3{
+flex:1;
+}
+.photobox4{
+    flex:1;
+}
+#likebutton {
+    border: 0;
+    margin-top: 600px;
+    align-items: center;
+    box-shadow: 10px 10px 5px grey;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(24, 41, 194);
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), 
+}
+#likebutton:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+                
+
 }
